@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-1: #f1f2f6;
+  --color-2: #fff;
+  --color-3: #000;
+  --color-4: #0021f5;
+  --color-green: #228b22;
+  --color-red: #ff0000;
+
+  background-color: var(--color-1);
+}
+
+a {
+  text-decoration: none;
+}
